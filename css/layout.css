@@ -1,0 +1,31 @@
+/* @media screen and (max-width: 960px) { */
+    /* main {
+        width:480px;
+    } */
+
+    header {
+        height: 100px;
+        width: 960px;
+    }
+
+    aside{
+        height: 600px;
+        width: 200px;
+
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    .two {
+        height: 200px;
+        width: 380px;
+        float: left;
+    }
+
+    .four {
+        height: 250px;
+        width: 190px;
+    }
+/* } */
