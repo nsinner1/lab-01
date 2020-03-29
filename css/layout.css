@@ -1,31 +1,63 @@
-/* @media screen and (max-width: 960px) { */
-    /* main {
-        width:480px;
-    } */
 
+header {
+    height: 80px;
+    line-height: 80px;
+    width: 480px;
+  }
+  
+  aside, .two {
+    height: 125px;
+    line-height: 125px;
+    width: 480px;
+  }
+  
+   .four {
+    display: inline-block;
+    height: 250px;
+    line-height: 250px;
+    width: 240px;
+  }
+  
+  footer {
+    height: 80px;
+    line-height: 80px;
+    width: 480px;
+  }
+  
+  
+
+
+  @media (min-width:768px) {
+    
     header {
-        height: 100px;
-        width: 960px;
+      width: 960px;
+      height: 100px;
+      line-height: 100px;
     }
-
-    aside{
-        height: 600px;
-        width: 200px;
-
+  
+    aside {
+      float: left;
+      height: 600px;
+      line-height: 600px;
+      width: 200px;
     }
-
-    footer {
-        height: 80px;
-    }
-
+  
     .two {
-        height: 200px;
-        width: 380px;
-        float: left;
+      float: left;
+      height: 200px;
+      line-height: 200px;
+      width: 380px;    
     }
-
+  
     .four {
-        height: 250px;
-        width: 190px;
+      float: left;
+      width: 190px;
     }
-/* } */
+  
+    footer {
+      float: left;
+      width: 760px;
+      height: 150px;
+      line-height: 150px;
+    }
+  }
