@@ -5,7 +5,13 @@ header {
     width: 480px;
   }
   
-  aside, .two {
+  aside {
+    height: 125px;
+    line-height: 125px;
+    width: 480px;
+  }
+
+  .two {
     height: 125px;
     line-height: 125px;
     width: 480px;
